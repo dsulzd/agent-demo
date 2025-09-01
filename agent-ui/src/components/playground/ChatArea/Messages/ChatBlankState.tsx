@@ -43,23 +43,6 @@ interface ActionButtonProps {
   text: string
 }
 
-const ActionButton = ({ href, variant, text }: ActionButtonProps) => {
-  const baseStyles =
-    'px-4 py-2 text-sm transition-colors font-dmmono tracking-tight'
-  const variantStyles = {
-    primary: 'border border-border hover:bg-neutral-800 rounded-xl'
-  }
-
-  return (
-    <Link
-      href={href}
-      target="_blank"
-      className={`${baseStyles} ${variant ? variantStyles[variant] : ''}`}
-    >
-      {text}
-    </Link>
-  )
-}
 
 const ChatBlankState = () => {
   const [hoveredIcon, setHoveredIcon] = useState<string | null>(null)
