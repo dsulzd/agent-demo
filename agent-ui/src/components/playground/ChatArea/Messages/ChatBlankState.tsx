@@ -37,13 +37,6 @@ const TECH_ICONS = [
   }
 ]
 
-interface ActionButtonProps {
-  href: string
-  variant?: 'primary'
-  text: string
-}
-
-
 const ChatBlankState = () => {
   const [hoveredIcon, setHoveredIcon] = useState<string | null>(null)
 
