@@ -1,0 +1,41 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+.env.*
+*.env
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Node/Next.js (agent-ui)
+agent-ui/node_modules/
+agent-ui/.next/
+agent-ui/dist/
+agent-ui/out/
+agent-ui/.env.local
+agent-ui/.env.development.local
+agent-ui/.env.test.local
+agent-ui/.env.production.local
+agent-ui/npm-debug.log*
+agent-ui/yarn-debug.log*
+agent-ui/yarn-error.log*
+agent-ui/pnpm-debug.log*
+
+# General/OS
+Thumbs.db
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
